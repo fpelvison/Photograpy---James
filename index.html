@@ -13,14 +13,15 @@
   </head>
 
   <body>
-    <section id="presentation">
-      <main id="menu">
-        <nav class="nav">
+    <header id="presentation">
+      <nav class="nav">
+        <ul>
           <li><a href="" type="button" class="cta">Sobre Mim</a></li>
-          <li><a href="" type="button" class="cta">Contatos</a></li>
-          <li><a href="#portfolio" type="button" class="cta">Portifólio</a></li>
-        </nav>
-      </main>
+          <li><a href="#foote" type="button" class="cta">Contatos</a></li>
+          <li><a href="#portfolio" type="button" class="cta">Ensaios</a></li>
+        </ul>
+      </nav>
+  
       <div class="presentation container">
         <div>
           <h1>Olá,<span></span></h1>
@@ -28,48 +29,40 @@
           <h1>James<span></span></h1>
         </div>
       </div>
-    </section>
+    </header>
 
-    <section id="portfolio">
+    <main id="portfolio">
       <div class="portfolio container">
         <div class="portfolio header">
-          <h1 class="section-title"><span>Portifólio</span></h1>
+          <h1 class="section-title"><span>Ensaios Fotograficos</span></h1>
         </div>
         <div class="all-projects">
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Projeto 1</h1>
-              <h2>Codar é daora</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                nec eros leo. Vestibulum aliquam vel libero eget porttitor. Nunc
-                nisl nunc, suscipit quis quam ut, congue fermentum ipsum. In
-                consectetur, leo a accumsan eleifend, tortor leo eleifend nunc,
-                sed pulvinar neque urna vitae dui.
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="./img-1.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Projeto 2</h1>
-              <h2>Codar é vida</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                nec eros leo. Vestibulum aliquam vel libero eget porttitor. Nunc
-                nisl nunc, suscipit quis quam ut, congue fermentum ipsum. In
-                consectetur, leo a accumsan eleifend, tortor leo eleifend nunc,
-                sed pulvinar neque urna vitae dui.
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="./img-1.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
+          <section class="project-item">
+            <article class="project-info">
+              <h1>O Casamento</h1>
+              <h2>O tão sonhado <em>casamento.</em></h2>
+                <p>
+                  O vestido, o bolo, as flores, o local, os temidos planos de assentos, a música da primeira dança, um <strong>fotógrafo</strong> – a lista é interminável. O que sempre parece vir por último na lista são os dentes.
+                </p>
+            </article>
+            <figure class="project-img">
+              <img src="Fotografias/Ensaio de casamento/casaamentofotografando.jpg" alt="img" />
+            <figure>
+          </section>
+          <section class="project-item">
+            <article class="project-info">
+              <h1>São Paulo</h1>
+              <h2>São Paulo de todo mundo: a visão dos <em>forasteiros</em> sobre a cidade.</h2>  
+                  <p>
+                    Na semana de aniversário de São Paulo você confere a visão dos <strong>forasteiros</strong> sobre a cidade. No quinto, e último capítulo da série, o assunto são as curiosidades, as esquisitices da cidade.
+                  </p>
+            </article>
+            <figure class="project-img">
+              <img src="Fotografias/Ensaio de casamento/creativosbr-baiana-em-são-paulo-opinião.jpg" alt="img" />
+            </figure>
+          </section>
+          <section class="project-item">
+            <article class="project-info">
               <h1>Projeto 3</h1>
               <h2>Codar é amor</h2>
               <p>
@@ -79,13 +72,13 @@
                 consectetur, leo a accumsan eleifend, tortor leo eleifend nunc,
                 sed pulvinar neque urna vitae dui.
               </p>
-            </div>
-            <div class="project-img">
+            </article>
+            <figure class="project-img">
               <img src="./img-1.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
+            </figure>
+          </section>
+          <section class="project-item">
+            <article class="project-info">
               <h1>Projeto 4</h1>
               <h2>Codar é gostoso demais</h2>
               <p>
@@ -95,13 +88,25 @@
                 consectetur, leo a accumsan eleifend, tortor leo eleifend nunc,
                 sed pulvinar neque urna vitae dui.
               </p>
-            </div>
-            <div class="project-img">
+            </article>
+            <figure class="project-img">
               <img src="./img-1.png" alt="img" />
-            </div>
-          </div>
+            </figure>
+          </section>
         </div>
       </div>
-    </section>
-  </body>
+    </main>
+    <footer id="foote">
+      <ul class="icones-sociais">
+        <li>
+          <a href="https://www.linkedin.com/in/fpelvison/" target="_blank"><img src="Fotografias/linkedin_icon-icons.com_65929.png" alt="Icone do Linkedin"></a>
+        </li>
+        <li>
+          <a href="https://github.com/fpelvison" target="_blank"><img src="Fotografias/logo_github_icon_143196.png" alt="Icone do GitHub"></a>
+        </li>
+        
+      </ul>
+     &copy; Elvison 😎 2022
+    </footer>
+  </body>  
 </html>
