@@ -53,7 +53,7 @@ li {
 .nav ul {
   display: flex;
   justify-content: right;
-  margin-right: 2rem; 
+  margin-right: 3rem; 
 }
 
 /* Seção de apresentação */
@@ -143,6 +143,7 @@ li {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+  
 }
 #portfolio .portfolio-header h1 {
   margin-bottom: 50px;
@@ -152,16 +153,18 @@ li {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 2px;
 }
 #portfolio .project-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
   width: 80%;
   margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
+  
 }
 
 #portfolio .project-info {
@@ -211,6 +214,20 @@ li {
   transform: scale(1.1);
 }
 
+/*SEÇÃO SOBRE MIM*/
+#sobremim{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 25px auto;
+  padding: 25px;
+  background-color: rgba(252, 252, 252, 0.705);
+}
+.mim{
+
+  background-color: rgba(252, 252, 252, 0.705);
+}
 /*Informações do Roda Pé */
 #foote{
   background-color:  rgb(0, 0, 0);       
@@ -218,14 +235,14 @@ li {
   padding: 28px;         
   color: rgb(250,255,250);
   font-size: 15px;
-  font-family: "arial", sans-serif;
+  gap: 50px;
 }
 
 .icones-sociais li{
-  display: inline-block;
+  display: flex;
   float: right;
   width: 50px;
-  height: 50px;"
+  height: 50px;
 }
 
 footer {
